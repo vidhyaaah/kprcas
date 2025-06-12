@@ -1,0 +1,58 @@
+
+       .line{
+            background-color: bisque;
+       }
+       #new{
+            font-family: cursive;
+       }
+       h1{
+            background-color: chocolate;
+       }
+
+.parent p{
+     color: chartreuse;
+}
+.margin{
+    border: 3px solid black;
+    padding: 20px;
+}
+.margin{
+
+    border: 3px solid black;
+    margin: top 50px;
+}
+.static{
+    position: static;
+}
+.position{
+    border: 2px solid violet;
+}
+.relative{
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+.page{
+    height: 100vh
+}
+.fixed{
+     position: fixed;
+     top: 50px;
+}
+.sticky{
+    top:0;
+    font-size: xx-large;
+}
+.inline{
+    display: inline-block
+}
+.flex-container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.flex-container div{
+    background-color: peachpuff;
+    border: 2px solid brown;
+    height: 100px;
+    width: 100px;
+}
